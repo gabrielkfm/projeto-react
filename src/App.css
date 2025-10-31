@@ -1,0 +1,14 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  min-height: 100vh;
+}
+pre {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+ul {
+  margin-left: 20px;
+}

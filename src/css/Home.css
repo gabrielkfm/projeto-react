@@ -1,0 +1,9 @@
+.home {
+  padding: 2rem;
+  text-align: left;
+  min-height: 80vh;
+  background-image: 
+    linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), 
+    url(../assets/home.jpg);
+  background-size: cover;
+}

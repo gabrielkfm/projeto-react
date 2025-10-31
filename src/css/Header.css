@@ -1,0 +1,40 @@
+.header {
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  color: red;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav Link {
+  color: white;
+  text-decoration: none;
+}
+
+.botao_link{
+  background-color: red;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+.botao_link:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.btn-link:active {
+  transform: scale(0.95);
+}

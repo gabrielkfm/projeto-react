@@ -1,5 +1,5 @@
 .header {
-  background-color: white;
+  background-color: transparent;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
@@ -8,6 +8,7 @@
 .header h1 {
   color: red;
   margin: 0;
+  font-size: 48px;
 }
 nav {
   display: flex;
@@ -21,7 +22,6 @@ nav Link {
 }
 
 .botao_link{
-  background-color: red;
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -29,12 +29,8 @@ nav Link {
   font-weight: bold;
   transition: all 0.2s ease;
 }
-.botao_link:hover {
-  background-color: #000;
-  color: #fff;
-  transform: scale(1.05);
+
+a {
+  text-decoration: none;
 }
 
-.btn-link:active {
-  transform: scale(0.95);
-}

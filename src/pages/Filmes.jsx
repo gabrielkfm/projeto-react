@@ -1,4 +1,6 @@
 import "../css/Catalogo.css";
+import Header from "../components/Header";
+
 
 export default function Filmes() {
   const filmes = [
@@ -62,6 +64,7 @@ export default function Filmes() {
 
   return (
     <main className="catalogo">
+      <Header />
       <h2>Filmes</h2>
       <div className="cards">
         {filmes.map((f) => (

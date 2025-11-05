@@ -1,9 +1,14 @@
 .home {
-  padding: 2rem;
   text-align: left;
-  min-height: 80vh;
+  min-height: 100vh;
+  margin: 1rem;
+  border-radius: 12px;
   background-image: 
-    linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), 
-    url(../assets/home.jpg);
+    url("https://cdn.observatoriodocinema.com.br/2024/07/Ko6gZ5Iv-the-witcher-netflix-1024x540.webp");
   background-size: cover;
+}
+.text-main {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 8px;
 }

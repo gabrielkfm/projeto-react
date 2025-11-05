@@ -1,4 +1,5 @@
 import "../css/Catalogo.css";
+import Header from "../components/Header";
 
 export default function Animes() {
   const animes = [
@@ -62,6 +63,7 @@ export default function Animes() {
 
   return (
     <main className="catalogo">
+      <Header />
       <h2>Animes</h2>
       <div className="cards">
         {animes.map((a) => (

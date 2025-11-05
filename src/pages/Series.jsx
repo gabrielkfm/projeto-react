@@ -1,4 +1,6 @@
 import "../css/Catalogo.css";
+import Header from "../components/Header";
+
 
 export default function Series() {
   const series = [
@@ -62,6 +64,7 @@ export default function Series() {
 
   return (
     <main className="catalogo">
+      <Header />
       <h2>Séries</h2>
       <div className="cards">
         {series.map((s) => (
